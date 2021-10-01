@@ -1,4 +1,4 @@
-var s = "xzxzx";
+var s = "abcdeyhtu";
 var count = 0;
 for (var i = 0; i < s.length - 2; i++) {
   for (var j = i + 1; j < s.length - 1; j++) {

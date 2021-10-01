@@ -9,3 +9,4 @@ function divideArray(arr, n) {
 }
 console.log(divideArray([2, 2, 3, 3, 2, 2], 3));
 console.log(divideArray([2, 2, 3, 3, 2, 2], 2));
+console.log(divideArray([2, 2, 3, 3, 2, 2, 1], 4));
