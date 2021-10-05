@@ -20,7 +20,7 @@ for (var k = 0; k <= 2 * (maxlength - 1); ++k) {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 console.log("///////////////////////////////////");
-function* Diagonal(xLength, yLength) {
+function* Diagonals(xLength, yLength) {
   for (let y = 0; y < yLength; y++) {
     yield {
       x: 0,
@@ -71,7 +71,7 @@ for (let i = 0; i < Ylength; i++) {
   sortedMatrix[i] = new Array(Xlength);
 }
 
-for (const diagonal of Diagonal(Xlength, Ylength)) {
+for (const diagonal of Diagonals(Xlength, Ylength)) {
   var slice = sliceMatrix(matrix, diagonal);
   slice.sort();
 
