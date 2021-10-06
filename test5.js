@@ -2,6 +2,8 @@
 // arr = [1, 2, 2, 1, 2, 1, 2] and queries = [[1, 1, 2], [1, 2, 1]]
 // arr = [1, 1, 1, 1] and queries = [[1, 1, 1]],
 
+////////////////////////////////////////////
+
 const givenArray = [1, 1, 1, 1];
 const tripleArray = [[1, 1, 1]];
 let resultArray = [0];
